@@ -43,6 +43,13 @@ jobs:
       - name: Build
         run: ./gradlew build -Pcommit=${{ github.sha }} -Pbuild_number=${{ steps.build-number.outputs.number }}
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: betterfps
+          path: |
+            **/build/libs/*.jar
+
       - name: Webhook Failure
         if: ${{ failure() }}
         run: |
