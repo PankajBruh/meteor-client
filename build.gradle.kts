@@ -4,7 +4,7 @@ plugins {
 }
 
 base {
-    archivesName = properties["archives_base_name"] as String
+    archivesName = "betterfps"
     group = properties["maven_group"] as String
 
     val suffix = if (project.hasProperty("build_number")) {
