@@ -1,13 +1,11 @@
 {
   "schemaVersion": 1,
-  "name": "Meteor Client",
-  "id": "meteor-client",
+  "name": "betterfps",
+  "id": "betterfps",
   "version": "${version}",
-  "description": "Based utility mod.",
+  "description": "Performance utility mod.",
   "authors": [
-    "MineGame159",
-    "squidoodly",
-    "seasnail"
+    "ggblue"
   ],
   "contact": {
     "homepage": "https://meteorclient.com",
@@ -16,7 +14,7 @@
     "discord": "https://meteorclient.com/discord"
   },
   "license": "GPL-3.0",
-  "icon": "assets/meteor-client/icon.png",
+  "icon": "assets/betterfps/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
